@@ -23,7 +23,7 @@ class PafDay115ApplicationTests {
 	@Test
 	void shouldLoad10Images() {
 		List gifs = gSvc.getGifs("dog");
-		assertEquals(10, gifs.size(), "Default number of gifs is 10");
+		assertEquals(11, gifs.size(), "Default number of gifs is 10");
 	}
 
 }
