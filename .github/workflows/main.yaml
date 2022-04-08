@@ -36,6 +36,6 @@ jobs:
         secret_key: ${{ secrets.giphy_key }}
         space_name: day12giphyworkshop
         space_region: sgp1
-        source: target/site/jacoco
-        out_dir: coverage/${{ github.event.repository.name }}/report
-        permissions: public-read
+        source: target/site/jacoco/
+        out_dir: coverage/${{ github.event.repository.name }}/report/
+        permission: public-read
