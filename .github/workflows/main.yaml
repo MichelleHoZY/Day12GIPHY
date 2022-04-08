@@ -23,7 +23,7 @@ jobs:
       uses: BetaHuhn/do-spaces-action@v2
       with: 
         access_key: ${{ secrets.day12_secret }}
-        secret_key: ${{ secrets.giphy_key }}
+        secret_key: ${{ secrets.giphy_secret }}
         space_name: day12giphyworkshop
         space_region: sgp1
         source: .github/badges/jacoco.svg
@@ -33,7 +33,7 @@ jobs:
       uses: BetaHuhn/do-spaces-action@v2
       with: 
         access_key: ${{ secrets.day12_secret }}
-        secret_key: ${{ secrets.giphy_key }}
+        secret_key: ${{ secrets.giphy_secret }}
         space_name: day12giphyworkshop
         space_region: sgp1
         source: target/site/jacoco/
